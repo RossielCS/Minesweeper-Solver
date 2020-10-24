@@ -48,7 +48,7 @@ Unit tests for:
    $ `docker-compose run --rm web rspec --format documentation`   
   It will provide you well-organized output on your terminal with information about the tests.
 
-### :rocket: Deployment
+### Deployment
 To deploy on Heroku you can check [this tutorial](https://www.theodinproject.com/courses/ruby-on-rails/lessons/preparing-for-deployment) from the Odin Project.
 
 After pushing the last changes to the remote repository, follow this steps:
