@@ -18,6 +18,11 @@ module SolverHelper
     problem
   end
 
+  def return_result(response)
+    prob = JSON.parse(response)
+    { 'problem': prob, 'solution': solve_board(prob) }
+  end
+
   def receive_data(link)
     RestClient.get link
   rescue RestClient::Exception => e
