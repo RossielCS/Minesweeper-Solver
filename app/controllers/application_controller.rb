@@ -1,3 +1,5 @@
+require 'solver'
+
 class ApplicationController < ActionController::API
-  include SolverHelper
+  include Solver
 end
