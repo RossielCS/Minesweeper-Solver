@@ -1,6 +1,6 @@
 require 'rest-client'
 
-module SolverHelper
+module Solver
   def solve_board(data)
     problem = Marshal.load(Marshal.dump(data))
     count = 0

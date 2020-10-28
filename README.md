@@ -2,11 +2,11 @@
 > This project has as main objective to build an app that solves a board similar to the minesweeper game.<br />
 The app takes an API and retrieves a random board, which is a two dimensional Array.
 The application should replace all the white spaces with an integer representing the number of bombs near the element.<br />
-Once the board has is solved, the app will proceed to return an API with two properties, the problem, and the solution.
+Once the board is solved, the app will proceed to return an API with two properties, the problem, and the solution.
 
 ## :earth_americas: Live Demo
 
-You can try it [here](https://rossielcs-minesweeper-solver.herokuapp.com//).
+You can try it [here](https://rossielcs-minesweeper-solver.herokuapp.com).
 
 ## :hammer:  Built With
 - Ruby 2.7.0,
@@ -41,7 +41,7 @@ To run the project:
 
 ### Run tests
 Unit tests for:   
-- Helpers. 
+- Solver module. 
 - Requests.    
 
   In your terminal search the repository's address and run:<br />
